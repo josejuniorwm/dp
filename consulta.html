@@ -18,7 +18,7 @@
 
 	</head>
 
-  <body style="background-color:black">
+  <body onload="carregaListaDespesas()" style="background-color:black">
 
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-5">
@@ -111,7 +111,7 @@
 
       <div class="row">
         <div class="col">
-          <table class="table" >
+          <table class="table" style="color: aquamarine;">
             <thead>
               <tr>
                 <th>Data</th>
@@ -122,7 +122,7 @@
               </tr>
             </thead>
 
-            <tbody>
+            <tbody id="listaDespesas" style="color: azure;">
             </tbody>
           </table>
         </div>
